@@ -23,6 +23,17 @@ Resources
 - [schematron validation with lxml] [LXM], a popular python xml library
 
 [INT]: http://www.topologi.com/public/Schtrn_XSD/Paper.html
-[INT]: http://www.topologi.com/public/Schtrn_XSD/Paper.html
+[IBM]: http://www.ibm.com/developerworks/xml/tutorials/x-schematron/
 [EXA]: http://www.zvon.org/xxl/SchematronTutorial/General/toc.html
 [LXM]: http://lxml.de/validation.html
+
+
+Code
+====
+
+- simple [validation example] [VAL] using lxml; shows how to view validation output.
+
+[VAL]: https://github.com/birkin/schematron_info/blob/master/code.py
+
+---
+

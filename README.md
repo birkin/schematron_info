@@ -1,7 +1,7 @@
 Overview
 ========
 
-- a way of validating xml; assertion-based; familiar to [TDD-ers] [TDD].
+- a way of validating xml; assertion-based; familiar to [TDD-ers][TDD].
 
 - from [wikipedia][WIK]: _"...Schematron is a rule-based validation language for making assertions about the presence or absence of patterns in XML trees. It is a structural schema language expressed in XML using a small number of elements and XPath."_
 

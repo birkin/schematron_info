@@ -23,9 +23,9 @@ schematron_2 = isoschematron.Schematron( schematron_doc, store_report=True )
 result_2 = schematron_2.validate( bad_doc )  # type(schematron_2.validation_report) == lxml.etree._XSLTResultTree
 assert result_2 == False
 report = etree.tostring( schematron_2.validation_report, pretty_print=True )  # type(report) == str
-print u'REPORT:\n%s\n\n' % report.decode(u'utf8', u'replace')
+print( 'REPORT:\n%s\n\n' % report.decode(u'utf8', u'replace') )
 #
 result_2 = schematron_2.validate( good_doc )
 assert result_2 == True
 report = etree.tostring( schematron_2.validation_report, pretty_print=True )
-print u'REPORT:\n%s\n\n' % report.decode(u'utf8', u'replace')
+print( 'REPORT:\n%s\n\n' % report.decode(u'utf8', u'replace') )
